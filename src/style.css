@@ -1,0 +1,84 @@
+body {
+    background: paleturquoise;
+ }
+ 
+ .box-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+ }
+ 
+ .box {
+   text-align: center;
+    width: 12%;
+   padding: 10px; 
+   background: blueviolet; 
+   height: 50px;
+   margin: 10px;
+   align-content: center;
+   cursor: pointer;
+ }
+ 
+ .note {
+   align-content: center;
+   padding: 5px;
+   margin: 10px;
+   opacity: 80%;
+   color: white;
+ }
+ 
+ .box_hover {
+   background-color:#CD853F;
+ }
+ 
+ 
+ .hidden {
+   display:none;
+ }   
+ 
+ 
+ .collapsables_title {
+   cursor: pointer;
+ }
+ 
+ .collapsables_title:hover {
+   text-decoration: underline;
+ }
+ 
+ .hidden {
+   display:none;
+ }
+ 
+ .tabs-container_content {
+   width: auto;
+   height: 60px;
+   padding: 20px;
+   background-color: ligtgrey;
+ }
+ 
+ .tab-content {
+   display: none;
+   font-weight: bold;
+ }
+ 
+ .tab-content_current {
+   display: block;
+ }
+ 
+ .tabs {
+   display: flex;
+ }
+ 
+ .tab {
+   background-color: blueviolet;
+   height: auto;
+   width: 100px;
+   padding: 5px 10px;
+   border-radius: 10px 10px 0 0;
+   border-right: 1px solid #753e1e;;
+   cursor: pointer;
+ }
+ 
+ .tab_active {
+   background-color: cornflowerblue;
+ }

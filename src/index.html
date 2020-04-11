@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>   
+            <div class="box_container">
+    
+                <div class="box" data-note="BMW"></div>
+                <div class="box" data-note="Mercedes"></div>
+                <div class="box" data-note="Audi"></div>
+                <div class="box" data-note="Volkswagen"></div>
+                <div class="box" data-note="Skoda"></div>
+                <div class="box" data-note="Toyota"></div>
+                
+            </div>
+    
+            <div class="collapsables">
+    
+              <h4 class="collapsables_title">BMW</h4>
+              <ul class="collapsables_list hidden">
+                <li>X5</li>
+                <li>X6</li>
+                <li>X7</li>
+              </ul>
+            </div>
+    
+            <div class="tabs-container">
+    
+              <div class="tabs">
+                <div class="tab tab_active" data-target="tab-1">BMW</div>
+                <div class="tab" data-target="tab-2">Mercedes</div>
+                <div class="tab" data-target="tab-3">Audi</div>
+              </div>
+              <div class="tabs-container_content">
+                <div id="tab-1"class="tab-content tab-content_current">BMW M5 </div>
+                <div id="tab-2"class="tab-content">Audi RS6</div>
+                <div id="tab-3"class="tab-content">Mercedes E63</div>
+                </div>
+              </div>
+            
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
